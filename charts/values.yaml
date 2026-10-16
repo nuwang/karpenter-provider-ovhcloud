@@ -91,7 +91,8 @@ securityContext:
 # Log level
 logLevel: info
 
-# Feature gates
+# Karpenter core feature gates, passed as FEATURE_GATES (e.g. NodeOverlay: true).
+# Empty keeps Karpenter's defaults.
 featureGates: {}
 
 # ServiceMonitor for Prometheus Operator
